@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gncoin
+Comment=Gncoin P2P Cryptocurrency
+Comment[fr]=Gncoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Gncoin, eşten eşe kriptografik sanal para birimi
+Exec=gncoin-qt %u
+Terminal=false
+Type=Application
+Icon=gncoin128
+MimeType=x-scheme-handler/gncoin;
+Categories=Office;Finance;

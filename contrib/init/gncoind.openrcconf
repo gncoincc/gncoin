@@ -1,0 +1,26 @@
+# /etc/conf.d/gncoind: config file for /etc/init.d/gncoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/gncoin/gncoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/gncoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/gncoind.pid"
+
+# Where to write gncoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/gncoind"
+
+# User and group to own gncoind process
+#BITCOIND_USER="gncoin"
+#BITCOIND_GROUP="gncoin"
+
+# Path to gncoind executable
+#BITCOIND_BIN="/usr/bin/gncoind"
+
+# Nice value to run gncoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
